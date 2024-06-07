@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pose_button">
+        <attr name="pose_name" format="string"/>
+        <attr name="pose_image" format="reference"/>
+        <attr name="pose_tips" format="string" />
+    </declare-styleable>
+</resources>

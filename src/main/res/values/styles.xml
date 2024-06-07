@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="myAppTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+    <style name="LunchTheme" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/colorWelcome</item>
+    </style>
+
+    <!--对话框样式-->
+    <style name="mdialog" parent="Theme.AppCompat.Dialog">
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--没有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景昏暗-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

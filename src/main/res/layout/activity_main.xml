@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/little_blue"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <FrameLayout
+            android:background="@drawable/gradual_color_bg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/main_logo"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="康复有我，请君莫愁"
+                        android:typeface="sans"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        card_view:cardCornerRadius="30dp">
+                        <ImageView
+                            android:id="@+id/userImg"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/img_0" />
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+                        <TextView
+                            android:id="@+id/userName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="468dp"
+                    android:layout_gravity="top"
+                    android:src="@drawable/img_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:padding="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="left"
+                            >
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_gravity="center"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardBackgroundColor="#00BFFF">
+
+                                <LinearLayout
+                                    android:paddingLeft="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:gravity="center_vertical">
+                                    <TextView
+                                        android:lines="1"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="今日康复"/>
+                                    <TextView
+                                        android:layout_marginTop="10dp"
+                                        android:lines="1"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="10 min"/>
+                                    <TextView
+                                        android:layout_marginTop="10dp"
+                                        android:lines="1"
+                                        android:textSize="12sp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="平均得分：92"/>
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="3dp"
+                            android:paddingRight="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="left">
+                            <android.support.v7.widget.CardView
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_gravity="center"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardBackgroundColor="#00FFFF"
+                                card_view:cardElevation="0dp"
+                                card_view:cardMaxElevation="10dp">
+
+                                <LinearLayout
+                                    android:paddingLeft="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:gravity="center_vertical">
+                                    <TextView
+                                        android:lines="1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="康复动作"/>
+
+                                    <TextView
+                                        android:layout_marginTop="10dp"
+                                        android:textSize="12sp"
+                                        android:lines="1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="动作总数:37"/>
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:gravity="top|center_horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="请选择康复阶段："
+                            android:textColor="#44BDED"
+                            android:textSize="16dp" />
+
+                        <Spinner
+                            android:id="@+id/process_selector"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/mybutton" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="请选择训练方案："
+                            android:textColor="#F5684A"
+                            android:textSize="16dp" />
+
+                        <Spinner
+                            android:id="@+id/course_selector"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/mybutton" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/btn_entry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/mybutton"
+                            android:text="进入训练"
+                            android:textColor="#CA6B6E"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

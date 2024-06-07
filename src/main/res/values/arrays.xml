@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cpu_thread_num_entries">
+        <item>1 threads</item>
+        <item>2 threads</item>
+        <item>4 threads</item>
+        <item>8 threads</item>
+    </string-array>
+    <string-array name="cpu_thread_num_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="cpu_power_mode_entries">
+        <item>HIGH(only big cores)</item>
+        <item>LOW(only LITTLE cores)</item>
+        <item>FULL(all cores)</item>
+        <item>NO_BIND(depends on system)</item>
+        <item>RAND_HIGH</item>
+        <item>RAND_LOW</item>
+    </string-array>
+    <string-array name="cpu_power_mode_values">
+        <item>LITE_POWER_HIGH</item>
+        <item>LITE_POWER_LOW</item>
+        <item>LITE_POWER_FULL</item>
+        <item>LITE_POWER_NO_BIND</item>
+        <item>LITE_POWER_RAND_HIGH</item>
+        <item>LITE_POWER_RAND_LOW</item>
+    </string-array>
+
+
+    <string-array name="pose_name">
+        <item>测试</item>
+        <item>前屈</item>
+        <item>后伸</item>
+        <item>深膝蹲</item>
+        <item>弓步运动</item>
+    </string-array>
+    <string-array name="pose_image">
+        <item>null</item>
+        <item>pose_a</item>
+        <item>pose_b</item>
+        <item>pose_c</item>
+        <item>pose_d</item>
+    </string-array>
+    <integer-array name="pose_action_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pose_tips">
+        <item></item>
+        <item>手臂缓慢上举,正常0°~180°,明显感觉到手臂的拉伸感即可。</item>
+        <item>手臂缓慢上举,正常0°~180°,明显感觉到手臂的拉伸感即可。</item>
+        <item>两脚分开与肩同宽，下蹲时脚跟不要离地；臀部靠近小腿，双手握拳前伸,蹲起来时臀部及大腿发力，动作放缓，身体保持平衡</item>
+        <item>两腿前后分开，背部保持直立，身体直立前倾,屈膝关节下压，拉伸后退肌肉，两脚不离开地面</item>
+    </string-array>
+
+    <string-array name="process_names">
+        <item>卧床期</item>
+        <item>下床期</item>
+        <item>出院期</item>
+    </string-array>
+
+    <string-array name="course_names">
+        <item>LDH-上肢康复训练</item>
+        <item>LDH-下肢康复训练</item>
+        <item>LDH-颈椎康复训练</item>
+        <item>LDH-腰椎康复训练</item>
+    </string-array>
+
+
+
+</resources>
