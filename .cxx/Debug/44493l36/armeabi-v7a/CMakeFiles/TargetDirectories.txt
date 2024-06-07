@@ -1,3 +1,0 @@
-C:/Users/weilai/Desktop/kangfu/app/.cxx/Debug/44493l36/armeabi-v7a/CMakeFiles/Native.dir
-C:/Users/weilai/Desktop/kangfu/app/.cxx/Debug/44493l36/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/Users/weilai/Desktop/kangfu/app/.cxx/Debug/44493l36/armeabi-v7a/CMakeFiles/rebuild_cache.dir

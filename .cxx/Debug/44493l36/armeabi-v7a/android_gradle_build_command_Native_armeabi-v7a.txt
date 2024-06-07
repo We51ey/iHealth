@@ -1,7 +1,0 @@
-Executable : E:\Android\SDK\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-C:\Users\weilai\Desktop\kangfu\app\.cxx\Debug\44493l36\armeabi-v7a
-Native
-jvmArgs : 
-
